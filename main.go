@@ -1,29 +1,4 @@
-/*
-	Based on
 
-	talk from Liz Rice at UK Docker Conf 2016
-	https://www.youtube.com/watch?v=HPuvDm8IC-4
-
-	AND
-
-	Article by Julian Friedman
-	https://www.infoq.com/articles/build-a-container-golang
-
-	Namespacing - what it sees
-		UNIX Timesharing System
-		Process IDs
-		File System (mount points)
-		Users
-		IPC
-		Networking
-
-	Control Groups - what resources can use
-		CPU
-		Memory
-		Disk I/O
-		Network
-		Device permissions (/dev)
-*/
 
 package main
 
